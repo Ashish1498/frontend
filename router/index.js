@@ -6,10 +6,22 @@ import manageOrder from '@/pages/manageOrder.vue'
 import manageInventory from '@/pages/manageInventory.vue'
 import manageEmployee from '@/pages/manageEmployee.vue'
 import viewInventory from '@/pages/viewInventory.vue'
+import register from '@/pages/register.vue'
+import homePage from '@/pages/homePage.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/register',
+    name: 'register',
+    component: register
+  },
+  {
+    path: '/',
+    mane: '/homePage',
+    component: homePage
+  },
   {
     path: '/admin',
     name: 'admin',
