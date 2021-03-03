@@ -1,7 +1,7 @@
 <template>
   <nav class='navbar'>
       <!-- <router-link to="/">Product</router-link> -->
-      <router-link to="/viewInventoryData/">view Inventory Data</router-link>
+      <router-link to="/viewInventory/">view Inventory Data</router-link>
       <form class="search-func">
         <input class="searchfunctionality" type="text" placeholder="Search" aria-label="Search" />
         <button size="lg" type="submit" outline="white">Search</button>

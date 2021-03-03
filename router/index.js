@@ -3,6 +3,9 @@ import VueRouter from 'vue-router'
 import admin from '@/pages/admin.vue'
 import employee from '@/pages/employee.vue'
 import manageOrder from '@/pages/manageOrder.vue'
+import manageInventory from '@/pages/manageInventory.vue'
+import manageEmployee from '@/pages/manageEmployee.vue'
+import viewInventory from '@/pages/viewInventory.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +24,21 @@ const routes = [
     path: '/manageOrder',
     name: 'manageOrder',
     component: manageOrder
+  },
+  {
+    path: '/manageInventory',
+    name: 'manageInventory',
+    component: manageInventory
+  },
+  {
+    path: '/manageEmployee',
+    name: 'manageEmployee',
+    component: manageEmployee
+  },
+  {
+    path: '/viewInventory',
+    name: 'viewInventory',
+    component: viewInventory
   }
 ]
 
